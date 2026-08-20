@@ -179,7 +179,7 @@ h2 { margin-bottom: 0; font-size: clamp(4.2rem, 8vw, 8.5rem); text-transform: up
   body { padding-bottom: 64px; }
   .site-header { padding-block: 11px; }.site-header.is-scrolled { padding-block: 8px; }
   .nav-shell { min-height: 56px; grid-template-columns: 1fr 52px; }
-  .brand { width: 152px; }.brand img { width: 152px; height: auto; }
+  .brand { width: 184px; }.brand img { width: 184px; height: auto; }
   .desktop-nav, .nav-cta { display: none; }
   .menu-toggle { display: grid; width: 52px; height: 52px; place-items: center; align-content: center; gap: 8px; padding: 0; border: 0; background: transparent; color: white; cursor: pointer; }
   .menu-toggle span:not(.sr-only) { display: block; width: 27px; height: 2px; background: currentColor; transition: transform .2s ease; }
