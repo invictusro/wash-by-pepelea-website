@@ -155,7 +155,7 @@ h2 { margin-bottom: 0; font-size: clamp(4.2rem, 8vw, 8.5rem); text-transform: up
 .footer-brand { display: block; width: 136px; padding: 3px; background: white; }
 .footer-brand img { width: 130px; height: 61px; object-fit: contain; }
 .footer-main > p { max-width: 32ch; margin: 0; color: var(--muted); }
-.footer-top { display: inline-flex; min-height: 44px; align-items: center; color: var(--ink); font-size: .69rem; font-weight: 800; letter-spacing: .1em; text-decoration: none; text-transform: uppercase; }
+.footer-top { display: inline-flex; min-width: 44px; min-height: 44px; align-items: center; color: var(--ink); font-size: .69rem; font-weight: 800; letter-spacing: .1em; text-decoration: none; text-transform: uppercase; }
 .footer-top:hover { color: var(--blue); }
 .footer-bottom { display: flex; min-height: 61px; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); color: var(--muted); font-size: .7rem; }
 
@@ -182,7 +182,7 @@ h2 { margin-bottom: 0; font-size: clamp(4.2rem, 8vw, 8.5rem); text-transform: up
   .menu-toggle { display: grid; width: 52px; height: 52px; place-items: center; align-content: center; gap: 8px; padding: 0; border: 0; background: transparent; color: white; cursor: pointer; }
   .menu-toggle span:not(.sr-only) { display: block; width: 27px; height: 2px; background: currentColor; transition: transform .2s ease; }
   .menu-toggle[aria-expanded="true"] span:nth-last-child(2) { transform: translateY(5px) rotate(45deg); }.menu-toggle[aria-expanded="true"] span:last-child { transform: translateY(-5px) rotate(-45deg); }
-  .mobile-menu { position: absolute; top: 100%; right: 0; left: 0; display: grid; padding: 14px var(--wide) 24px; background: var(--navy-deep); box-shadow: 0 16px 22px rgba(0,0,0,.22); }
+  .mobile-menu { position: absolute; top: 100%; right: 0; left: 0; display: grid; padding: 14px 16px 24px; background: var(--navy-deep); box-shadow: 0 16px 22px rgba(0,0,0,.22); }
   .mobile-menu a { padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,.12); color: white; font-size: .76rem; font-weight: 700; letter-spacing: .09em; text-decoration: none; text-transform: uppercase; }
   .mobile-menu .mobile-menu-cta { display: flex; align-items: center; justify-content: space-between; margin-top: 12px; padding: 13px 16px; border: 0; background: var(--lime); color: var(--navy); }
   .mobile-menu-cta span { font-size: 1.2rem; }
