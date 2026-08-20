@@ -51,6 +51,7 @@ h2 { margin-bottom: 0; font-size: clamp(4.2rem, 8vw, 8.5rem); text-transform: up
 .nav-cta:hover { background: var(--lime); color: var(--navy); }
 .nav-cta:hover span { color: inherit; }
 .menu-toggle, .mobile-menu { display: none; }
+.mobile-menu[hidden] { display: none !important; }
 
 .hero { position: relative; display: flex; min-height: max(740px, 100svh); overflow: hidden; align-items: flex-end; background: var(--navy); color: white; }
 .hero-image { position: absolute; z-index: 0; top: 0; right: 0; bottom: 0; width: min(47vw, 740px); overflow: hidden; }
