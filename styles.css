@@ -39,8 +39,9 @@ h2 { margin-bottom: 0; font-size: clamp(4.2rem, 8vw, 8.5rem); text-transform: up
 .site-header { position: fixed; z-index: 80; top: 0; right: 0; left: 0; padding: 19px 0; color: white; transition: background .25s ease, box-shadow .25s ease, padding .25s ease; }
 .site-header.is-scrolled { padding-block: 10px; background: rgba(3, 19, 35, .95); box-shadow: 0 4px 20px rgba(0,0,0,.18); backdrop-filter: blur(14px); }
 .nav-shell { display: grid; width: var(--wide); min-height: 58px; margin: auto; grid-template-columns: 190px 1fr 190px; align-items: center; }
-.brand { display: inline-flex; width: 164px; align-items: center; justify-content: center; line-height: 0; }
-.brand img { width: 164px; height: auto; object-fit: contain; }
+.brand { display: inline-flex; width: 164px; align-items: center; justify-content: center; line-height: 0; transition: width .28s var(--ease); }
+.brand img { width: 164px; height: auto; object-fit: contain; transition: width .28s var(--ease); }
+.site-header.is-scrolled .brand, .site-header.is-scrolled .brand img { width: 116px; }
 .desktop-nav { display: flex; align-items: center; justify-content: center; gap: clamp(20px, 2.8vw, 45px); }
 .desktop-nav a { position: relative; padding: 9px 0; color: rgba(255,255,255,.83); font-size: .7rem; font-weight: 700; letter-spacing: .1em; text-decoration: none; text-transform: uppercase; transition: color .2s ease; }
 .desktop-nav a::after { position: absolute; right: 0; bottom: 2px; left: 0; height: 2px; background: var(--lime); content: ""; transform: scaleX(0); transform-origin: left; transition: transform .25s var(--ease); }
