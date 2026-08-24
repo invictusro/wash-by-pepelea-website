@@ -14,7 +14,7 @@ Open `http://localhost:8080`.
 
 The project is ready for Coolify using the bundled `Dockerfile` and exposes port `80`.
 
-Public URL: `https://site.invilabs.ro/washpepelea/`
+Public URL: `https://washbypepelea.ro/`
 
 The document base is configured for the production subpath and CSS/JS receive cache-busting query strings.
 
